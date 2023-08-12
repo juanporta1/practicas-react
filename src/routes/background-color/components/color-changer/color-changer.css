@@ -1,0 +1,46 @@
+.caja{
+    height: 93vh;
+    flex-grow: 1; 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info{
+    width: 450px;
+    height: 50px;
+    background: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.color{
+    font-size: 1.5em;
+}
+
+.btn-div{
+    margin: 20px;
+}
+
+.btn{
+    border-radius: 5px;
+    border: 1px solid #222;
+    margin-top: 10px;
+    animation: resp 2s infinite;
+    background: #777;
+}
+
+.btn:active{
+    background-color: #ddd;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #aaa;
+}
